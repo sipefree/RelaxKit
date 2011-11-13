@@ -30,19 +30,6 @@ Copy the .a and the header files to your own project.
 
 ## API Examples
 
-All methods in the API return an RKRequest (subclass of RKEventEmitter) object.
-
-You can use that to hook lower-level events:
-
-```objc
-RKRequest* req = [myDB get:@"bob" :^(id err, id json) {
-    NSLog(@"whatever");
-}];
-[req on:@"response" :^(id response) {
-    // do something with the NSHTTPURLResponse
-}];
-```
-
 ### Create a connection
 
 ```objc
@@ -124,6 +111,22 @@ NSDictionary* bobDoc = [NSDictionary dictionaryWithObjectsAndKeys:
     NSLog(@"%@", [json valueForKey:@"_rev"]);
 }];
 ```
+
+### Misc
+
+All methods in the API return an RKRequest (subclass of RKEventEmitter) object.
+
+You can use that to hook lower-level events:
+
+```objc
+RKRequest* req = [myDB get:@"bob" :^(id err, id json) {
+    NSLog(@"whatever");
+}];
+[req on:@"response" :^(id response) {
+    // do something with the NSHTTPURLResponse
+}];
+```
+
 
 ## What's not working?
 
