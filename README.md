@@ -38,7 +38,7 @@ NSDictionary* options = [NSDictionary dictionaryWithObjectsAndKeys:
                            [NSNumber numberWithInt:5984], @"port",
                            [NSNumber numberWithBool:YES], @"cache",
                         nil];
-RKConnection* onnection = [[RKConnection alloc] initWithOptions:options];
+RKConnection* connection = [[RKConnection alloc] initWithOptions:options];
 ```
 
 ### Use a database
