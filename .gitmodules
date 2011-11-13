@@ -1,0 +1,9 @@
+[submodule "JSONKit"]
+	path = JSONKit
+	url = https://github.com/johnezang/JSONKit.git
+[submodule "AFNetworking"]
+	path = AFNetworking
+	url = https://github.com/gowalla/AFNetworking.git
+[submodule "gh-unit"]
+	path = gh-unit
+	url = https://github.com/gabriel/gh-unit.git

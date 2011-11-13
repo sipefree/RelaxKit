@@ -8,17 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		E4A6DA98146C4266004630EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DA97146C4266004630EA /* Foundation.framework */; };
-		E4A6DA9E146C4266004630EA /* RelaxKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DA9D146C4266004630EA /* RelaxKit.m */; };
-		E4A6DAA6146C4267004630EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DAA5146C4266004630EA /* SenTestingKit.framework */; };
-		E4A6DAA8146C4267004630EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DAA7146C4267004630EA /* UIKit.framework */; };
-		E4A6DAA9146C4267004630EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DA97146C4266004630EA /* Foundation.framework */; };
-		E4A6DAAC146C4267004630EA /* libRelaxKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DA94146C4266004630EA /* libRelaxKit.a */; };
-		E4A6DAB2146C4267004630EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4A6DAB0146C4267004630EA /* InfoPlist.strings */; };
-		E4A6DAB5146C4267004630EA /* RelaxKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAB4146C4267004630EA /* RelaxKitTests.m */; };
+		E4A6DAC1146C42F0004630EA /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DABF146C42F0004630EA /* JSONKit.h */; };
+		E4A6DAC2146C42F0004630EA /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAC0146C42F0004630EA /* JSONKit.m */; };
+		E4A6DADA146C4339004630EA /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAC5146C4339004630EA /* AFHTTPClient.h */; };
+		E4A6DADB146C4339004630EA /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAC6146C4339004630EA /* AFHTTPClient.m */; };
+		E4A6DADC146C4339004630EA /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAC7146C4339004630EA /* AFHTTPRequestOperation.h */; };
+		E4A6DADD146C4339004630EA /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAC8146C4339004630EA /* AFHTTPRequestOperation.m */; };
+		E4A6DADE146C4339004630EA /* AFImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAC9146C4339004630EA /* AFImageCache.h */; };
+		E4A6DADF146C4339004630EA /* AFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DACA146C4339004630EA /* AFImageCache.m */; };
+		E4A6DAE0146C4339004630EA /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DACB146C4339004630EA /* AFImageRequestOperation.h */; };
+		E4A6DAE1146C4339004630EA /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DACC146C4339004630EA /* AFImageRequestOperation.m */; };
+		E4A6DAE2146C4339004630EA /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DACD146C4339004630EA /* AFJSONRequestOperation.h */; };
+		E4A6DAE3146C4339004630EA /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DACE146C4339004630EA /* AFJSONRequestOperation.m */; };
+		E4A6DAE4146C4339004630EA /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DACF146C4339004630EA /* AFNetworkActivityIndicatorManager.h */; };
+		E4A6DAE5146C4339004630EA /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAD0146C4339004630EA /* AFNetworkActivityIndicatorManager.m */; };
+		E4A6DAE6146C4339004630EA /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAD1146C4339004630EA /* AFNetworking.h */; };
+		E4A6DAE7146C4339004630EA /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAD2146C4339004630EA /* AFPropertyListRequestOperation.h */; };
+		E4A6DAE8146C4339004630EA /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAD3146C4339004630EA /* AFPropertyListRequestOperation.m */; };
+		E4A6DAE9146C4339004630EA /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAD4146C4339004630EA /* AFURLConnectionOperation.h */; };
+		E4A6DAEA146C4339004630EA /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAD5146C4339004630EA /* AFURLConnectionOperation.m */; };
+		E4A6DAEB146C4339004630EA /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAD6146C4339004630EA /* AFXMLRequestOperation.h */; };
+		E4A6DAEC146C4339004630EA /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAD7146C4339004630EA /* AFXMLRequestOperation.m */; };
+		E4A6DAED146C4339004630EA /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAD8146C4339004630EA /* UIImageView+AFNetworking.h */; };
+		E4A6DAEE146C4339004630EA /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAD9146C4339004630EA /* UIImageView+AFNetworking.m */; };
+		E4A6DAF1146C43F2004630EA /* RelaxKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAEF146C43F2004630EA /* RelaxKit.h */; };
+		E4A6DAF2146C43F2004630EA /* RelaxKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAF0146C43F2004630EA /* RelaxKit.m */; };
+		E4A6DAF5146C47C1004630EA /* RKConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAF3146C47C1004630EA /* RKConnection.h */; };
+		E4A6DAF6146C47C1004630EA /* RKConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DAF4146C47C1004630EA /* RKConnection.m */; };
+		E4A6DB09146EFA79004630EA /* RKDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DB07146EFA79004630EA /* RKDatabase.h */; };
+		E4A6DB0A146EFA79004630EA /* RKDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DB08146EFA79004630EA /* RKDatabase.m */; };
+		E4A6DB11146F3C27004630EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DAA7146C4267004630EA /* UIKit.framework */; };
+		E4A6DB12146F3C27004630EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DA97146C4266004630EA /* Foundation.framework */; };
+		E4A6DB14146F3C27004630EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DB13146F3C27004630EA /* CoreGraphics.framework */; };
+		E4A6DB1A146F3C27004630EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4A6DB18146F3C27004630EA /* InfoPlist.strings */; };
+		E4A6DB1C146F3C27004630EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DB1B146F3C27004630EA /* main.m */; };
+		E4A6DB29146F3CE1004630EA /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DB28146F3CE1004630EA /* GHUnitIOS.framework */; };
+		E4A6DB2C146F3DB6004630EA /* RKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DB2B146F3DB6004630EA /* RKTests.m */; };
+		E4A6DB2D146F3E33004630EA /* libRelaxKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A6DA94146C4266004630EA /* libRelaxKit.a */; };
+		E4A6DB3C146F66CF004630EA /* RelaxKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAEF146C43F2004630EA /* RelaxKit.h */; };
+		E4A6DB3D146F66CF004630EA /* RKConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DAF3146C47C1004630EA /* RKConnection.h */; };
+		E4A6DB3E146F66CF004630EA /* RKDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DB07146EFA79004630EA /* RKDatabase.h */; };
+		E4A6DB3F146F66CF004630EA /* RKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DB2E146F40D5004630EA /* RKTypes.h */; };
+		E4A6DB44146F68B5004630EA /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DB40146F68B4004630EA /* NSData+Base64.h */; };
+		E4A6DB45146F68B5004630EA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DB41146F68B4004630EA /* NSData+Base64.m */; };
+		E4A6DB46146F68B5004630EA /* RKEventEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DB42146F68B4004630EA /* RKEventEmitter.h */; };
+		E4A6DB47146F68B5004630EA /* RKEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6DB43146F68B4004630EA /* RKEventEmitter.m */; };
+		E4A6DB48146F68C6004630EA /* RKEventEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A6DB42146F68B4004630EA /* RKEventEmitter.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E4A6DAAA146C4267004630EA /* PBXContainerItemProxy */ = {
+		E4A6DB37146F62EE004630EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4A6DA8B146C4266004630EA /* Project object */;
 			proxyType = 1;
@@ -30,16 +69,51 @@
 /* Begin PBXFileReference section */
 		E4A6DA94146C4266004630EA /* libRelaxKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRelaxKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A6DA97146C4266004630EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E4A6DA9B146C4266004630EA /* RelaxKit-Prefix.pch */ = {isa = PBXFileReference; path = "RelaxKit-Prefix.pch"; sourceTree = "<group>"; };
-		E4A6DA9C146C4266004630EA /* RelaxKit.h */ = {isa = PBXFileReference; path = RelaxKit.h; sourceTree = "<group>"; };
-		E4A6DA9D146C4266004630EA /* RelaxKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaxKit.m; sourceTree = "<group>"; };
-		E4A6DAA4146C4266004630EA /* RelaxKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelaxKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A6DA9B146C4266004630EA /* RelaxKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelaxKit-Prefix.pch"; sourceTree = "<group>"; };
 		E4A6DAA5146C4266004630EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E4A6DAA7146C4267004630EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E4A6DAAF146C4267004630EA /* RelaxKitTests-Info.plist */ = {isa = PBXFileReference; path = "RelaxKitTests-Info.plist"; sourceTree = "<group>"; };
-		E4A6DAB1146C4267004630EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E4A6DAB3146C4267004630EA /* RelaxKitTests.h */ = {isa = PBXFileReference; path = RelaxKitTests.h; sourceTree = "<group>"; };
-		E4A6DAB4146C4267004630EA /* RelaxKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaxKitTests.m; sourceTree = "<group>"; };
+		E4A6DABF146C42F0004630EA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = "<group>"; };
+		E4A6DAC0146C42F0004630EA /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = "<group>"; };
+		E4A6DAC5146C4339004630EA /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = "<group>"; };
+		E4A6DAC6146C4339004630EA /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = "<group>"; };
+		E4A6DAC7146C4339004630EA /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		E4A6DAC8146C4339004630EA /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E4A6DAC9146C4339004630EA /* AFImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageCache.h; path = AFNetworking/AFNetworking/AFImageCache.h; sourceTree = "<group>"; };
+		E4A6DACA146C4339004630EA /* AFImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageCache.m; path = AFNetworking/AFNetworking/AFImageCache.m; sourceTree = "<group>"; };
+		E4A6DACB146C4339004630EA /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = "<group>"; };
+		E4A6DACC146C4339004630EA /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = "<group>"; };
+		E4A6DACD146C4339004630EA /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		E4A6DACE146C4339004630EA /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		E4A6DACF146C4339004630EA /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		E4A6DAD0146C4339004630EA /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		E4A6DAD1146C4339004630EA /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		E4A6DAD2146C4339004630EA /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		E4A6DAD3146C4339004630EA /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		E4A6DAD4146C4339004630EA /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		E4A6DAD5146C4339004630EA /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E4A6DAD6146C4339004630EA /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		E4A6DAD7146C4339004630EA /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		E4A6DAD8146C4339004630EA /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		E4A6DAD9146C4339004630EA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E4A6DAEF146C43F2004630EA /* RelaxKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelaxKit.h; sourceTree = "<group>"; };
+		E4A6DAF0146C43F2004630EA /* RelaxKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelaxKit.m; sourceTree = "<group>"; };
+		E4A6DAF3146C47C1004630EA /* RKConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKConnection.h; sourceTree = "<group>"; };
+		E4A6DAF4146C47C1004630EA /* RKConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKConnection.m; sourceTree = "<group>"; };
+		E4A6DB07146EFA79004630EA /* RKDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKDatabase.h; sourceTree = "<group>"; };
+		E4A6DB08146EFA79004630EA /* RKDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKDatabase.m; sourceTree = "<group>"; };
+		E4A6DB0F146F3C27004630EA /* RKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A6DB13146F3C27004630EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4A6DB17146F3C27004630EA /* RKTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RKTest-Info.plist"; sourceTree = "<group>"; };
+		E4A6DB19146F3C27004630EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4A6DB1B146F3C27004630EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4A6DB1D146F3C27004630EA /* RKTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RKTest-Prefix.pch"; sourceTree = "<group>"; };
+		E4A6DB28146F3CE1004630EA /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "gh-unit/Project-iOS/build/Framework/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		E4A6DB2B146F3DB6004630EA /* RKTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTests.m; sourceTree = "<group>"; };
+		E4A6DB2E146F40D5004630EA /* RKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTypes.h; sourceTree = "<group>"; };
+		E4A6DB40146F68B4004630EA /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "RelaxKit/NSData+Base64.h"; sourceTree = "<group>"; };
+		E4A6DB41146F68B4004630EA /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "RelaxKit/NSData+Base64.m"; sourceTree = "<group>"; };
+		E4A6DB42146F68B4004630EA /* RKEventEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKEventEmitter.h; path = RelaxKit/RKEventEmitter.h; sourceTree = "<group>"; };
+		E4A6DB43146F68B4004630EA /* RKEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKEventEmitter.m; path = RelaxKit/RKEventEmitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,14 +125,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4A6DAA0146C4266004630EA /* Frameworks */ = {
+		E4A6DB0C146F3C27004630EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A6DAA6146C4267004630EA /* SenTestingKit.framework in Frameworks */,
-				E4A6DAA8146C4267004630EA /* UIKit.framework in Frameworks */,
-				E4A6DAA9146C4267004630EA /* Foundation.framework in Frameworks */,
-				E4A6DAAC146C4267004630EA /* libRelaxKit.a in Frameworks */,
+				E4A6DB2D146F3E33004630EA /* libRelaxKit.a in Frameworks */,
+				E4A6DB11146F3C27004630EA /* UIKit.framework in Frameworks */,
+				E4A6DB12146F3C27004630EA /* Foundation.framework in Frameworks */,
+				E4A6DB14146F3C27004630EA /* CoreGraphics.framework in Frameworks */,
+				E4A6DB29146F3CE1004630EA /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +143,13 @@
 		E4A6DA89146C4266004630EA = {
 			isa = PBXGroup;
 			children = (
+				E4A6DB40146F68B4004630EA /* NSData+Base64.h */,
+				E4A6DB41146F68B4004630EA /* NSData+Base64.m */,
+				E4A6DB42146F68B4004630EA /* RKEventEmitter.h */,
+				E4A6DB43146F68B4004630EA /* RKEventEmitter.m */,
 				E4A6DA99146C4266004630EA /* RelaxKit */,
-				E4A6DAAD146C4267004630EA /* RelaxKitTests */,
+				E4A6DABE146C42D3004630EA /* Libraries */,
+				E4A6DB15146F3C27004630EA /* RKTest */,
 				E4A6DA96146C4266004630EA /* Frameworks */,
 				E4A6DA95146C4266004630EA /* Products */,
 			);
@@ -79,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				E4A6DA94146C4266004630EA /* libRelaxKit.a */,
-				E4A6DAA4146C4266004630EA /* RelaxKitTests.octest */,
+				E4A6DB0F146F3C27004630EA /* RKTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +167,11 @@
 		E4A6DA96146C4266004630EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4A6DB28146F3CE1004630EA /* GHUnitIOS.framework */,
 				E4A6DA97146C4266004630EA /* Foundation.framework */,
 				E4A6DAA5146C4266004630EA /* SenTestingKit.framework */,
 				E4A6DAA7146C4267004630EA /* UIKit.framework */,
+				E4A6DB13146F3C27004630EA /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,9 +179,14 @@
 		E4A6DA99146C4266004630EA /* RelaxKit */ = {
 			isa = PBXGroup;
 			children = (
-				E4A6DA9C146C4266004630EA /* RelaxKit.h */,
-				E4A6DA9D146C4266004630EA /* RelaxKit.m */,
 				E4A6DA9A146C4266004630EA /* Supporting Files */,
+				E4A6DAEF146C43F2004630EA /* RelaxKit.h */,
+				E4A6DAF0146C43F2004630EA /* RelaxKit.m */,
+				E4A6DAF3146C47C1004630EA /* RKConnection.h */,
+				E4A6DAF4146C47C1004630EA /* RKConnection.m */,
+				E4A6DB07146EFA79004630EA /* RKDatabase.h */,
+				E4A6DB08146EFA79004630EA /* RKDatabase.m */,
+				E4A6DB2E146F40D5004630EA /* RKTypes.h */,
 			);
 			path = RelaxKit;
 			sourceTree = "<group>";
@@ -112,21 +199,68 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E4A6DAAD146C4267004630EA /* RelaxKitTests */ = {
+		E4A6DABE146C42D3004630EA /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				E4A6DAB3146C4267004630EA /* RelaxKitTests.h */,
-				E4A6DAB4146C4267004630EA /* RelaxKitTests.m */,
-				E4A6DAAE146C4267004630EA /* Supporting Files */,
+				E4A6DAC4146C4329004630EA /* AFNetworking */,
+				E4A6DAC3146C431F004630EA /* JSONKit */,
 			);
-			path = RelaxKitTests;
+			name = Libraries;
 			sourceTree = "<group>";
 		};
-		E4A6DAAE146C4267004630EA /* Supporting Files */ = {
+		E4A6DAC3146C431F004630EA /* JSONKit */ = {
 			isa = PBXGroup;
 			children = (
-				E4A6DAAF146C4267004630EA /* RelaxKitTests-Info.plist */,
-				E4A6DAB0146C4267004630EA /* InfoPlist.strings */,
+				E4A6DABF146C42F0004630EA /* JSONKit.h */,
+				E4A6DAC0146C42F0004630EA /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		E4A6DAC4146C4329004630EA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6DAC5146C4339004630EA /* AFHTTPClient.h */,
+				E4A6DAC6146C4339004630EA /* AFHTTPClient.m */,
+				E4A6DAC7146C4339004630EA /* AFHTTPRequestOperation.h */,
+				E4A6DAC8146C4339004630EA /* AFHTTPRequestOperation.m */,
+				E4A6DAC9146C4339004630EA /* AFImageCache.h */,
+				E4A6DACA146C4339004630EA /* AFImageCache.m */,
+				E4A6DACB146C4339004630EA /* AFImageRequestOperation.h */,
+				E4A6DACC146C4339004630EA /* AFImageRequestOperation.m */,
+				E4A6DACD146C4339004630EA /* AFJSONRequestOperation.h */,
+				E4A6DACE146C4339004630EA /* AFJSONRequestOperation.m */,
+				E4A6DACF146C4339004630EA /* AFNetworkActivityIndicatorManager.h */,
+				E4A6DAD0146C4339004630EA /* AFNetworkActivityIndicatorManager.m */,
+				E4A6DAD1146C4339004630EA /* AFNetworking.h */,
+				E4A6DAD2146C4339004630EA /* AFPropertyListRequestOperation.h */,
+				E4A6DAD3146C4339004630EA /* AFPropertyListRequestOperation.m */,
+				E4A6DAD4146C4339004630EA /* AFURLConnectionOperation.h */,
+				E4A6DAD5146C4339004630EA /* AFURLConnectionOperation.m */,
+				E4A6DAD6146C4339004630EA /* AFXMLRequestOperation.h */,
+				E4A6DAD7146C4339004630EA /* AFXMLRequestOperation.m */,
+				E4A6DAD8146C4339004630EA /* UIImageView+AFNetworking.h */,
+				E4A6DAD9146C4339004630EA /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		E4A6DB15146F3C27004630EA /* RKTest */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6DB16146F3C27004630EA /* Supporting Files */,
+				E4A6DB2B146F3DB6004630EA /* RKTests.m */,
+			);
+			path = RKTest;
+			sourceTree = "<group>";
+		};
+		E4A6DB16146F3C27004630EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6DB17146F3C27004630EA /* RKTest-Info.plist */,
+				E4A6DB18146F3C27004630EA /* InfoPlist.strings */,
+				E4A6DB1B146F3C27004630EA /* main.m */,
+				E4A6DB1D146F3C27004630EA /* RKTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +272,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A6DAC1146C42F0004630EA /* JSONKit.h in Headers */,
+				E4A6DADA146C4339004630EA /* AFHTTPClient.h in Headers */,
+				E4A6DADC146C4339004630EA /* AFHTTPRequestOperation.h in Headers */,
+				E4A6DADE146C4339004630EA /* AFImageCache.h in Headers */,
+				E4A6DAE0146C4339004630EA /* AFImageRequestOperation.h in Headers */,
+				E4A6DAE2146C4339004630EA /* AFJSONRequestOperation.h in Headers */,
+				E4A6DAE4146C4339004630EA /* AFNetworkActivityIndicatorManager.h in Headers */,
+				E4A6DAE6146C4339004630EA /* AFNetworking.h in Headers */,
+				E4A6DAE7146C4339004630EA /* AFPropertyListRequestOperation.h in Headers */,
+				E4A6DAE9146C4339004630EA /* AFURLConnectionOperation.h in Headers */,
+				E4A6DAEB146C4339004630EA /* AFXMLRequestOperation.h in Headers */,
+				E4A6DAED146C4339004630EA /* UIImageView+AFNetworking.h in Headers */,
+				E4A6DAF1146C43F2004630EA /* RelaxKit.h in Headers */,
+				E4A6DAF5146C47C1004630EA /* RKConnection.h in Headers */,
+				E4A6DB09146EFA79004630EA /* RKDatabase.h in Headers */,
+				E4A6DB44146F68B5004630EA /* NSData+Base64.h in Headers */,
+				E4A6DB46146F68B5004630EA /* RKEventEmitter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A6DB3A146F66B0004630EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A6DB48146F68C6004630EA /* RKEventEmitter.h in Headers */,
+				E4A6DB3C146F66CF004630EA /* RelaxKit.h in Headers */,
+				E4A6DB3D146F66CF004630EA /* RKConnection.h in Headers */,
+				E4A6DB3E146F66CF004630EA /* RKDatabase.h in Headers */,
+				E4A6DB3F146F66CF004630EA /* RKTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,24 +324,24 @@
 			productReference = E4A6DA94146C4266004630EA /* libRelaxKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E4A6DAA3146C4266004630EA /* RelaxKitTests */ = {
+		E4A6DB0E146F3C27004630EA /* RKTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4A6DABB146C4267004630EA /* Build configuration list for PBXNativeTarget "RelaxKitTests" */;
+			buildConfigurationList = E4A6DB21146F3C27004630EA /* Build configuration list for PBXNativeTarget "RKTest" */;
 			buildPhases = (
-				E4A6DA9F146C4266004630EA /* Sources */,
-				E4A6DAA0146C4266004630EA /* Frameworks */,
-				E4A6DAA1146C4266004630EA /* Resources */,
-				E4A6DAA2146C4266004630EA /* ShellScript */,
+				E4A6DB0B146F3C27004630EA /* Sources */,
+				E4A6DB0C146F3C27004630EA /* Frameworks */,
+				E4A6DB0D146F3C27004630EA /* Resources */,
+				E4A6DB3A146F66B0004630EA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4A6DAAB146C4267004630EA /* PBXTargetDependency */,
+				E4A6DB38146F62EE004630EA /* PBXTargetDependency */,
 			);
-			name = RelaxKitTests;
-			productName = RelaxKitTests;
-			productReference = E4A6DAA4146C4266004630EA /* RelaxKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = RKTest;
+			productName = RKTest;
+			productReference = E4A6DB0F146F3C27004630EA /* RKTest.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,70 +365,70 @@
 			projectRoot = "";
 			targets = (
 				E4A6DA93146C4266004630EA /* RelaxKit */,
-				E4A6DAA3146C4266004630EA /* RelaxKitTests */,
+				E4A6DB0E146F3C27004630EA /* RKTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E4A6DAA1146C4266004630EA /* Resources */ = {
+		E4A6DB0D146F3C27004630EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A6DAB2146C4267004630EA /* InfoPlist.strings in Resources */,
+				E4A6DB1A146F3C27004630EA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		E4A6DAA2146C4266004630EA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4A6DA90146C4266004630EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A6DA9E146C4266004630EA /* RelaxKit.m in Sources */,
+				E4A6DAC2146C42F0004630EA /* JSONKit.m in Sources */,
+				E4A6DADB146C4339004630EA /* AFHTTPClient.m in Sources */,
+				E4A6DADD146C4339004630EA /* AFHTTPRequestOperation.m in Sources */,
+				E4A6DADF146C4339004630EA /* AFImageCache.m in Sources */,
+				E4A6DAE1146C4339004630EA /* AFImageRequestOperation.m in Sources */,
+				E4A6DAE3146C4339004630EA /* AFJSONRequestOperation.m in Sources */,
+				E4A6DAE5146C4339004630EA /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E4A6DAE8146C4339004630EA /* AFPropertyListRequestOperation.m in Sources */,
+				E4A6DAEA146C4339004630EA /* AFURLConnectionOperation.m in Sources */,
+				E4A6DAEC146C4339004630EA /* AFXMLRequestOperation.m in Sources */,
+				E4A6DAEE146C4339004630EA /* UIImageView+AFNetworking.m in Sources */,
+				E4A6DAF2146C43F2004630EA /* RelaxKit.m in Sources */,
+				E4A6DAF6146C47C1004630EA /* RKConnection.m in Sources */,
+				E4A6DB0A146EFA79004630EA /* RKDatabase.m in Sources */,
+				E4A6DB45146F68B5004630EA /* NSData+Base64.m in Sources */,
+				E4A6DB47146F68B5004630EA /* RKEventEmitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4A6DA9F146C4266004630EA /* Sources */ = {
+		E4A6DB0B146F3C27004630EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A6DAB5146C4267004630EA /* RelaxKitTests.m in Sources */,
+				E4A6DB1C146F3C27004630EA /* main.m in Sources */,
+				E4A6DB2C146F3DB6004630EA /* RKTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E4A6DAAB146C4267004630EA /* PBXTargetDependency */ = {
+		E4A6DB38146F62EE004630EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E4A6DA93146C4266004630EA /* RelaxKit */;
-			targetProxy = E4A6DAAA146C4267004630EA /* PBXContainerItemProxy */;
+			targetProxy = E4A6DB37146F62EE004630EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4A6DAB0146C4267004630EA /* InfoPlist.strings */ = {
+		E4A6DB18146F3C27004630EA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E4A6DAB1146C4267004630EA /* en */,
+				E4A6DB19146F3C27004630EA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -337,33 +500,50 @@
 			};
 			name = Release;
 		};
-		E4A6DABC146C4267004630EA /* Debug */ = {
+		E4A6DB22146F3C27004630EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/gh-unit/Project-iOS/build/Framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RelaxKit/RelaxKit-Prefix.pch";
-				INFOPLIST_FILE = "RelaxKitTests/RelaxKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "RKTest/RKTest-Prefix.pch";
+				INFOPLIST_FILE = "RKTest/RKTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		E4A6DABD146C4267004630EA /* Release */ = {
+		E4A6DB23146F3C27004630EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/gh-unit/Project-iOS/build/Framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RelaxKit/RelaxKit-Prefix.pch";
-				INFOPLIST_FILE = "RelaxKitTests/RelaxKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "RKTest/RKTest-Prefix.pch";
+				INFOPLIST_FILE = "RKTest/RKTest-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -386,14 +566,16 @@
 				E4A6DABA146C4267004630EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E4A6DABB146C4267004630EA /* Build configuration list for PBXNativeTarget "RelaxKitTests" */ = {
+		E4A6DB21146F3C27004630EA /* Build configuration list for PBXNativeTarget "RKTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4A6DABC146C4267004630EA /* Debug */,
-				E4A6DABD146C4267004630EA /* Release */,
+				E4A6DB22146F3C27004630EA /* Debug */,
+				E4A6DB23146F3C27004630EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

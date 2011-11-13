@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RKConnection.h"
+#import "RKDatabase.h"
+#import "RKEventEmitter.h"
 
 @interface RelaxKit : NSObject
++ (RelaxKit*)defaults;
+@property (nonatomic, retain) NSDictionary* defaultOptions;
 
++ (NSString*)escape:(NSString*)_id;
 @end
